@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>ПростоВерстка</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="innerBlock">
+                <h1>
+                    <a href="index.html">game<span>sense</span></a>
+                </h1>
+            </div>
+            <div class="innerBlock">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"><i class="icon-bell_ui_notification_alert_alarm_icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            <div class="innerBlock">
+                <p>
+                    You are not logged in.
+                </p>
+            </div>
+        </header>
+        <main>
+            <div class="innerBlock">
+                <h2>Register</h2>
+            </div>
+            <div class="innerBlock">
+                <form>
+                    <fieldset>
+                        <legend>
+                            Your username must be alphanumeric between 3 and 25 characters long
+                        </legend>
+                        <div class="innerFormBlock">
+                            <label>
+                                <strong>
+                                    Username
+                                </strong>
+                                <br>
+                                <input type="password" name="username">
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Please enter and confirm your chosen password
+                        </legend>
+                        <div class="innerFormBlock">
+                            <div class="inputFormBlock">
+                                <label>
+                                    <strong>
+                                        Password
+                                    </strong>
+                                    <br>
+                                    <input type="password" name="password">
+                                </label>
+                                <label>
+                                    <strong>
+                                        Confirm password
+                                    </strong>
+                                    <br>
+                                    <input type="password" name="password_confirm">
+
+                                </label>
+                            </div>
+                            <p>Passwords must be at least 6 characters long. Passwords are case sensitive.</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Enter a valid email address
+                        </legend>
+                        <div class="innerFormBlock">
+                            <label>
+                                <strong>
+                                    Email
+                                </strong>
+                                <br>
+                                <input type="text" name="email">
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            You must be invited to join this forum
+                        </legend>
+                        <div class="innerFormBlock">
+                            <label>
+                                <strong>
+                                    Invitation code
+                                </strong>
+                                <br>
+                                <input type="text" name="code">
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="buttonBlock">
+                        <input type="submit" value="Register" name="register">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="innerBlock">
+                <p> GameSense 2024</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

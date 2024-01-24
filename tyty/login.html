@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>ПростоВерстка</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="innerBlock">
+                <h1>
+                    <a href="index.html">game<span>sense</span></a>
+                </h1>
+            </div>
+            <div class="innerBlock">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"><i class="icon-bell_ui_notification_alert_alarm_icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            <div class="innerBlock">
+                <p>
+                    You are not logged in.
+                </p>
+            </div>
+        </header>
+        <main>
+            <div class="innerBlock">
+                <h2>Login</h2>
+            </div>
+            <div class="innerBlock">
+                <form>
+                    <fieldset>
+                        <legend>
+                            Enter your username and password below
+                        </legend>
+                        <div class="innerFormBlock">
+                            <div class="inputFormBlock">
+                                <label>
+                                    <strong>
+                                        Username
+                                    </strong>
+                                    <br>
+                                    <input type="text" name="username">
+                                </label>
+                                <label>
+                                    <strong>
+                                        Password
+                                    </strong>
+                                    <br>
+                                    <input type="password" name="password">
+
+                                </label>
+                            </div>
+
+                            <label>
+                                <strong>
+                                </strong>
+                                <input type="checkbox" name="checkbox">
+                                Log me in automatically each time I visit.
+                            </label>
+
+                            <p>If you have not registered or have forgotten your password click on the appropriate link below.</p>
+                            <p>
+                                <span>
+                                    <a href="#">Not registered yet?</a>
+                                </span>
+                                <span>
+                                    <a href="#">Forgotten your password?</a>
+                                </span>
+                            </p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Two factor authentication
+                        </legend>
+                        <div class="innerFormBlock">
+                            <label>
+                                <strong>
+                                    2FA code
+                                </strong>
+                                <br>
+                                <input type="text" name="username">
+                            </label>
+                            <p>
+                                This field can be ignored if two factor authentication is not enabled on your account.
+                            </p>
+                        </div>
+                    </fieldset>
+                    <div class="buttonBlock">
+                        <input type="submit" value="Login" name="login">
+                    </div>
+                </form>
+            </div>
+
+        </main>
+        <footer>
+            <div class="innerBlock">
+                <p> GameSense 2024</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

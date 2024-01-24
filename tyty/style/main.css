@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+@import url('../icons/iconmoon/style.css');
+
+body {
+    background-image: url("../images/bg.jpeg");
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    color: #d4d4d3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover ,a:visited, a:active {
+    color: #d4d4d3;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-weight: normal;
+    margin: 0;
+    font-size: 11px;
+}
+
+body:before  {
+    content: "";
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: #1e5799;
+    background: -moz-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0%,#1e5799),color-stop(50%,#f300ff),color-stop(100%,#e0ff00));
+    background: -webkit-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -o-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -ms-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: linear-gradient(to right,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799',endColorstr='#e0ff00',GradientType=1);
+    height: 3px;
+    border-bottom: 1px solid #000;
+}
+
+.wrapper {
+    max-width: 1070px;
+    min-width: 320px;
+    padding: 0 20px;
+    margin: 12px auto;
+    font: 68.75%/1.4545em Verdana,Helvetica,Arial,sans-serif;
+}
+
+.innerBlock {
+    padding: 6px 12px;
+}
+
+header, main, footer {
+    background-color: #272726;
+    border-style: solid;
+    border-color: #353534;
+    border-width: 1px;
+}
+
+footer, main {
+    margin-top: 18px;
+}
+
+header {
+    margin-top: 9px;
+    border-top-width: 4px;
+    border-radius: 4px;
+}
+
+main {
+    border-radius: 4px 4px 0 0;
+}
+
+header h1 a {
+    color: #eaeaea;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'Raleway','Verdana', sans-serif;
+    padding: 7px 0 12px;
+}
+
+header h1 a span{
+    color: #b80606;
+}
+
+.innerBlock:has(nav) {
+    background-color: #353534;
+}
+
+nav ul{
+    font-size: 11px;
+    margin: 0;
+    padding: 2px 0 1px;
+}
+
+nav ul li{
+    padding-right: 12px;
+    display: inline;
+}
+
+nav ul li:first-child{
+    padding-right: 20px;
+}
+
+.icon-bell_ui_notification_alert_alarm_icon {
+    font-size: 1.33333333em;
+    line-height: 1;
+    vertical-align: -15%;
+}
+
+.innerBlock p{
+    padding: 3px 0 2px 0;
+}
+
+.innerBlock:has(h2) {
+    padding: 8px;
+    background-color: #353534;
+}
+
+main .innerBlock h2 {
+    text-transform: none;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #353534;
+}
+
+main .innerBlock p a {
+    color: #60a0dc;
+}
+
+main .innerBlock p a:hover {
+    color: #80d6ff;
+}
+
+fieldset {
+    margin-bottom: 12px;
+    padding: 0 12px 0 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #606060;
+}
+
+legend {
+    color: #60a0dc;
+    font-size: 10px;
+    padding: 0 6px;
+}
+
+.innerFormBlock {
+    padding: 9px 0 12px 0;
+}
+
+.inputFormBlock label {
+    float: left;
+}
+.innerFormBlock {
+    display: flex;
+
+    float: left;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+label {
+    padding: 3px 10px 3px 0;
+}
+
+input {
+    font-size: 10px;
+    background-color: #212120;
+    color: #ccc;
+    border: 1px solid #3e3e3d
+}
+
+input:hover {
+    background-color: #1b1b1a;
+    border-color: #444;
+    color: #aaa
+}
+
+.buttonBlock {
+    padding-left: 12px;
+}
+
+form {
+    padding: 9px 5px 9px 5px;
+
+}
